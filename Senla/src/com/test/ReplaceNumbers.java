@@ -23,6 +23,6 @@ public class ReplaceNumbers {
                  r += c;
             }
         }
-        System.out.println("result: " + r);
+        System.out.println("Итоговая строка: " + r);
     }
 }

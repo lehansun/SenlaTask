@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Segments">
+  <component name="RunManager" selected="Application.ReplaceNumbers">
     <configuration name="Fibonachchi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.Fibonachchi" />
       <module name="Senla" />
@@ -79,18 +79,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Palindrom" />
+      <item itemvalue="Application.Segments" />
       <item itemvalue="Application.Fibonachchi" />
       <item itemvalue="Application.NokAndNod" />
       <item itemvalue="Application.ReplaceNumbers" />
-      <item itemvalue="Application.Palindrom" />
-      <item itemvalue="Application.Segments" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Segments" />
-        <item itemvalue="Application.Palindrom" />
         <item itemvalue="Application.ReplaceNumbers" />
+        <item itemvalue="Application.Palindrom" />
         <item itemvalue="Application.NokAndNod" />
+        <item itemvalue="Application.Segments" />
         <item itemvalue="Application.Fibonachchi" />
       </list>
     </recent_temporary>

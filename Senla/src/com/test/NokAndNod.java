@@ -40,7 +40,7 @@ public class NokAndNod {
 
     private static int rekursiveNok(int max, int min) {
         if (max%a==0 && max%b==0) return max;
-        else return rekursiveNok(max+1, min);
+        else return rekursiveNok(max+a, min);
     }
 
     // Наибольший общий делитель

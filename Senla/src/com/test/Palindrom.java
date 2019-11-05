@@ -18,7 +18,7 @@ public class Palindrom {
     }
 
     private static boolean isPalindrom(String s) {
-        boolean r = true;
+        s = s.toLowerCase();
 
         for (int i = 0; i < s.length()/2; ) {
             char first = s.charAt(i);
@@ -27,6 +27,6 @@ public class Palindrom {
             if (first==last) i++;
             else return false;
         }
-    return r;
+    return true;
     }
 }

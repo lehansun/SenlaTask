@@ -19,7 +19,7 @@ public class PrimeNumbers {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Введите любое число больше 1:");
+        System.out.print("Введите любое число больше 1: ");
         int  n = Integer.parseInt(reader.readLine());
         isPrime(n);
     }

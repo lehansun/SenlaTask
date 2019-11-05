@@ -23,16 +23,16 @@ public class Fibonachchi {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         fibo.add((long) a);
         fibo.add((long) b);
-        System.out.println("Введиде число больше 1:");
+        System.out.print("Введиде число больше 1: ");
         try {
             n = Long.parseLong(reader.readLine());
         }
         catch (NumberFormatException e) {
             System.out.println("Вы ввелт не число!");
-            System.out.println("Попробуйте ввести число больше 1 еще раз: ");
+            System.out.print("Попробуйте ввести число больше 1 еще раз: ");
             n = Long.parseLong(reader.readLine());
         }
-        if (n<0) System.out.println("Упс, введенное отрицательное число");
+        if (n<0) System.out.println("Ошика: Вы ввели отрицательное число!");
         else {
             fiboLessThanN(n);
             System.out.println("Вот числа Фибоначчи, которые удалось найти в промежутке от 0 до " + n + ":");
